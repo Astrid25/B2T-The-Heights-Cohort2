@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	//Find student's average
+	//Find letter grade using if statements
+	//F below 60, D up to 70, C up to 79, B up to 89, A up to 100
+		var grades=[80, 77, 88, 95,68];
+		var x= 0;
+		var avgGrade = ("");
+		for(var i = 0; i < grades.length; i++){
+			x += grades[i];
+		}
+		avgGrade = x/grades.length
+		
+
+			if(avgGrade < 60){
+			console.log(avgGrade = "F")
+		}
+			else if(avgGrade <= 70){
+			console.log(avgGrade = "D")
+		}
+			else if(avgGrade <= 79){
+			console.log(avgGrade = "C")
+		}
+			else if(avgGrade <= 89){
+			console.log(avgGrade = "B")
+		}
+			else if(avgGrade <=100){
+			console.log(avgGrade = "A")
+		}
+			console.log("The student average is " + avgGrade);
+
+		
+	</script>
+
+</body>
+</html>
