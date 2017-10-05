@@ -1,0 +1,44 @@
+header{
+  background-color:FF00FF
+  color:white
+  text-align:center
+
+}
+
+body{
+  font-family:arial, sans-serif;
+}
+
+a{
+  text-decoration:none;
+  color:blue;
+}
+
+h1, h2, h3{
+  margin:0;
+}
+h3{
+  padding:20px;
+}
+content{
+  width:800px;
+  padding:10px;
+}
+
+nav{
+  width:180px
+  float:left
+}
+main{
+  width:600px;
+}
+
+nav ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.selector{
+  float:right;
+}
+
